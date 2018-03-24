@@ -33,15 +33,15 @@ var pool: AWSCognitoIdentityUserPool?
         )
         
         let controller : FlutterViewController = window?.rootViewController as! FlutterViewController;
-        let batteryChannel = FlutterMethodChannel.init(
+        let awsChannel = FlutterMethodChannel.init(
             name: "aws_cognito_auth.sample/aws",
             binaryMessenger: controller
         );
         
-        batteryChannel.setMethodCallHandler({
+        awsChannel.setMethodCallHandler({
             (call: FlutterMethodCall, result: FlutterResult) -> Void in
             // Handle battery messages.
-            batteryChannel.setMethodCallHandler({
+            awsChannel.setMethodCallHandler({
                 (call: FlutterMethodCall, result: @escaping FlutterResult) -> Void in
                 if ("login" == call.method) {
                     let argument: NSDictionary

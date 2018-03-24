@@ -46,6 +46,12 @@ flutter {
 
 dependencies {
     testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'com.android.support.test:runner:1.0.1'
-    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    //androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    //androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.google.firebase:firebase-messaging:10.2.1'
+    compile files('libs/aws-android-sdk-core-2.6.17.jar')
+    compile files('libs/aws-android-sdk-cognito-2.6.17.jar')
+    compile files('libs/aws-android-sdk-apigateway-core-2.6.17.jar')
+    compile files('libs/aws-android-sdk-cognitoidentityprovider-2.6.17.jar')
 }

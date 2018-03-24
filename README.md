@@ -1,8 +1,7 @@
-# aws_cognito_auth
+# Flutter Application with connecting to AWS Cognito
 
 A new Flutter project.
 
 ## Getting Started
 
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+Replace clientId, clientSecret and poolId in this code for your ids.

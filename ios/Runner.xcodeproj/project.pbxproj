@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
+		2D5378261FAA1A9400D5DBA9 /* flutter_assets in Resources */ = {isa = PBXBuildFile; fileRef = 2D5378251FAA1A9400D5DBA9 /* flutter_assets */; };
+		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
+		3B80C3941E831B6300D905FE /* App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B80C3931E831B6300D905FE /* App.framework */; };
+		3B80C3951E831B6300D905FE /* App.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3B80C3931E831B6300D905FE /* App.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 /* AppDelegate.swift */; };
+		85BBC16B2065E9F80016B892 /* AWSAuthCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC14A2065E9EE0016B892 /* AWSAuthCore.framework */; };
+		85BBC16C2065E9F80016B892 /* AWSAuthCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC14A2065E9EE0016B892 /* AWSAuthCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		85BBC16D2065E9F80016B892 /* AWSSQS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC14B2065E9EF0016B892 /* AWSSQS.framework */; };
+		85BBC16E2065E9F80016B892 /* AWSSQS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC14B2065E9EF0016B892 /* AWSSQS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		85BBC16F2065E9F80016B892 /* AWSSES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC14C2065E9EF0016B892 /* AWSSES.framework */; };
+		85BBC1702065E9F80016B892 /* AWSSES.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC14C2065E9EF0016B892 /* AWSSES.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		85BBC1712065E9F80016B892 /* AWSMobileClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC14D2065E9EF0016B892 /* AWSMobileClient.framework */; };
+		85BBC1722065E9F80016B892 /* AWSMobileClient.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC14D2065E9EF0016B892 /* AWSMobileClient.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		85BBC1732065E9F80016B892 /* AWSCognitoAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC14E2065E9EF0016B892 /* AWSCognitoAuth.framework */; };
+		85BBC1742065E9F80016B892 /* AWSCognitoAuth.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC14E2065E9EF0016B892 /* AWSCognitoAuth.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		85BBC1752065E9F80016B892 /* AWSIoT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC14F2065E9EF0016B892 /* AWSIoT.framework */; };
+		85BBC1762065E9F80016B892 /* AWSIoT.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC14F2065E9EF0016B892 /* AWSIoT.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		85BBC1772065E9F80016B892 /* AWSPolly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC1502065E9F00016B892 /* AWSPolly.framework */; };
+		85BBC1782065E9F80016B892 /* AWSPolly.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC1502065E9F00016B892 /* AWSPolly.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		85BBC1792065E9F80016B892 /* AWSEC2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC1512065E9F00016B892 /* AWSEC2.framework */; };
+		85BBC17A2065E9F80016B892 /* AWSEC2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC1512065E9F00016B892 /* AWSEC2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		85BBC17B2065E9F80016B892 /* AWSMobileAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC1522065E9F00016B892 /* AWSMobileAnalytics.framework */; };
+		85BBC17C2065E9F80016B892 /* AWSMobileAnalytics.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC1522065E9F00016B892 /* AWSMobileAnalytics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		85BBC17D2065E9F80016B892 /* AWSCognito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC1532065E9F00016B892 /* AWSCognito.framework */; };
+		85BBC17E2065E9F80016B892 /* AWSCognito.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC1532065E9F00016B892 /* AWSCognito.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		85BBC17F2065E9F80016B892 /* AWSDynamoDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC1542065E9F10016B892 /* AWSDynamoDB.framework */; };
+		85BBC1802065E9F80016B892 /* AWSDynamoDB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC1542065E9F10016B892 /* AWSDynamoDB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		85BBC1812065E9F80016B892 /* AWSAuthUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC1552065E9F10016B892 /* AWSAuthUI.framework */; };
+		85BBC1822065E9F80016B892 /* AWSAuthUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC1552065E9F10016B892 /* AWSAuthUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		85BBC1832065E9F80016B892 /* AWSKMS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC1562065E9F10016B892 /* AWSKMS.framework */; };
+		85BBC1842065E9F80016B892 /* AWSKMS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC1562065E9F10016B892 /* AWSKMS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		85BBC1852065E9F80016B892 /* AWSSNS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC1572065E9F20016B892 /* AWSSNS.framework */; };
+		85BBC1862065E9F80016B892 /* AWSSNS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC1572065E9F20016B892 /* AWSSNS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		85BBC1872065E9F80016B892 /* AWSUserPoolsSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC1582065E9F20016B892 /* AWSUserPoolsSignIn.framework */; };
+		85BBC1882065E9F80016B892 /* AWSUserPoolsSignIn.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC1582065E9F20016B892 /* AWSUserPoolsSignIn.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		85BBC1892065E9F80016B892 /* AWSKinesis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC1592065E9F20016B892 /* AWSKinesis.framework */; };
+		85BBC18A2065E9F80016B892 /* AWSKinesis.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC1592065E9F20016B892 /* AWSKinesis.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		85BBC18B2065E9F80016B892 /* AWSGoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC15A2065E9F30016B892 /* AWSGoogleSignIn.framework */; };
+		85BBC18C2065E9F80016B892 /* AWSGoogleSignIn.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC15A2065E9F30016B892 /* AWSGoogleSignIn.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		85BBC18D2065E9F80016B892 /* AWSRekognition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC15B2065E9F30016B892 /* AWSRekognition.framework */; };
+		85BBC18E2065E9F80016B892 /* AWSRekognition.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC15B2065E9F30016B892 /* AWSRekognition.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		85BBC18F2065E9F80016B892 /* AWSElasticLoadBalancing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC15C2065E9F30016B892 /* AWSElasticLoadBalancing.framework */; };
+		85BBC1902065E9F80016B892 /* AWSElasticLoadBalancing.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC15C2065E9F30016B892 /* AWSElasticLoadBalancing.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		85BBC1912065E9F80016B892 /* AWSPinpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC15D2065E9F40016B892 /* AWSPinpoint.framework */; };
+		85BBC1922065E9F80016B892 /* AWSPinpoint.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC15D2065E9F40016B892 /* AWSPinpoint.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		85BBC1932065E9F80016B892 /* AWSFacebookSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC15E2065E9F40016B892 /* AWSFacebookSignIn.framework */; };
+		85BBC1942065E9F80016B892 /* AWSFacebookSignIn.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC15E2065E9F40016B892 /* AWSFacebookSignIn.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		85BBC1952065E9F80016B892 /* AWSLex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC15F2065E9F40016B892 /* AWSLex.framework */; };
+		85BBC1962065E9F80016B892 /* AWSLex.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC15F2065E9F40016B892 /* AWSLex.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		85BBC1972065E9F80016B892 /* AWSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC1602065E9F50016B892 /* AWSCore.framework */; };
+		85BBC1982065E9F80016B892 /* AWSCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC1602065E9F50016B892 /* AWSCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		85BBC1992065E9F80016B892 /* AWSAutoScaling.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC1612065E9F50016B892 /* AWSAutoScaling.framework */; };
+		85BBC19A2065E9F80016B892 /* AWSAutoScaling.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC1612065E9F50016B892 /* AWSAutoScaling.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		85BBC19B2065E9F80016B892 /* AWSLambda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC1622065E9F50016B892 /* AWSLambda.framework */; };
+		85BBC19C2065E9F80016B892 /* AWSLambda.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC1622065E9F50016B892 /* AWSLambda.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		85BBC19D2065E9F80016B892 /* AWSLogs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC1632065E9F50016B892 /* AWSLogs.framework */; };
+		85BBC19E2065E9F80016B892 /* AWSLogs.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC1632065E9F50016B892 /* AWSLogs.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		85BBC19F2065E9F80016B892 /* AWSCloudWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC1642065E9F60016B892 /* AWSCloudWatch.framework */; };
+		85BBC1A02065E9F80016B892 /* AWSCloudWatch.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC1642065E9F60016B892 /* AWSCloudWatch.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		85BBC1A12065E9F80016B892 /* AWSCognitoIdentityProviderASF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC1652065E9F60016B892 /* AWSCognitoIdentityProviderASF.framework */; };
+		85BBC1A22065E9F80016B892 /* AWSCognitoIdentityProviderASF.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC1652065E9F60016B892 /* AWSCognitoIdentityProviderASF.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		85BBC1A32065E9F80016B892 /* AWSS3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC1662065E9F60016B892 /* AWSS3.framework */; };
+		85BBC1A42065E9F80016B892 /* AWSS3.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC1662065E9F60016B892 /* AWSS3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		85BBC1A52065E9F80016B892 /* AWSSimpleDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC1672065E9F70016B892 /* AWSSimpleDB.framework */; };
+		85BBC1A62065E9F80016B892 /* AWSSimpleDB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC1672065E9F70016B892 /* AWSSimpleDB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		85BBC1A72065E9F80016B892 /* AWSCognitoIdentityProvider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC1682065E9F70016B892 /* AWSCognitoIdentityProvider.framework */; };
+		85BBC1A82065E9F80016B892 /* AWSCognitoIdentityProvider.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC1682065E9F70016B892 /* AWSCognitoIdentityProvider.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		85BBC1A92065E9F80016B892 /* AWSAPIGateway.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC1692065E9F70016B892 /* AWSAPIGateway.framework */; };
+		85BBC1AA2065E9F80016B892 /* AWSAPIGateway.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC1692065E9F70016B892 /* AWSAPIGateway.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		85BBC1AB2065E9F80016B892 /* AWSMachineLearning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC16A2065E9F70016B892 /* AWSMachineLearning.framework */; };
+		85BBC1AC2065E9F80016B892 /* AWSMachineLearning.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85BBC16A2065E9F70016B892 /* AWSMachineLearning.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9705A1C61CF904A100538489 /* Flutter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9740EEBA1CF902C7004384FC /* Flutter.framework */; };
+		9705A1C71CF904A300538489 /* Flutter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9740EEBA1CF902C7004384FC /* Flutter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9740EEB41CF90195004384FC /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 9740EEB21CF90195004384FC /* Debug.xcconfig */; };
+		9740EEB51CF90195004384FC /* Generated.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 9740EEB31CF90195004384FC /* Generated.xcconfig */; };
+		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
+		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
+		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9705A1C41CF9048500538489 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				85BBC1962065E9F80016B892 /* AWSLex.framework in Embed Frameworks */,
+				85BBC1742065E9F80016B892 /* AWSCognitoAuth.framework in Embed Frameworks */,
+				85BBC17A2065E9F80016B892 /* AWSEC2.framework in Embed Frameworks */,
+				85BBC19C2065E9F80016B892 /* AWSLambda.framework in Embed Frameworks */,
+				85BBC1882065E9F80016B892 /* AWSUserPoolsSignIn.framework in Embed Frameworks */,
+				85BBC16C2065E9F80016B892 /* AWSAuthCore.framework in Embed Frameworks */,
+				85BBC17C2065E9F80016B892 /* AWSMobileAnalytics.framework in Embed Frameworks */,
+				85BBC1982065E9F80016B892 /* AWSCore.framework in Embed Frameworks */,
+				85BBC1AA2065E9F80016B892 /* AWSAPIGateway.framework in Embed Frameworks */,
+				85BBC1822065E9F80016B892 /* AWSAuthUI.framework in Embed Frameworks */,
+				3B80C3951E831B6300D905FE /* App.framework in Embed Frameworks */,
+				85BBC1802065E9F80016B892 /* AWSDynamoDB.framework in Embed Frameworks */,
+				85BBC1762065E9F80016B892 /* AWSIoT.framework in Embed Frameworks */,
+				85BBC1A62065E9F80016B892 /* AWSSimpleDB.framework in Embed Frameworks */,
+				85BBC17E2065E9F80016B892 /* AWSCognito.framework in Embed Frameworks */,
+				85BBC1702065E9F80016B892 /* AWSSES.framework in Embed Frameworks */,
+				85BBC18A2065E9F80016B892 /* AWSKinesis.framework in Embed Frameworks */,
+				85BBC1842065E9F80016B892 /* AWSKMS.framework in Embed Frameworks */,
+				85BBC1862065E9F80016B892 /* AWSSNS.framework in Embed Frameworks */,
+				85BBC19E2065E9F80016B892 /* AWSLogs.framework in Embed Frameworks */,
+				85BBC1A22065E9F80016B892 /* AWSCognitoIdentityProviderASF.framework in Embed Frameworks */,
+				85BBC1A02065E9F80016B892 /* AWSCloudWatch.framework in Embed Frameworks */,
+				85BBC1782065E9F80016B892 /* AWSPolly.framework in Embed Frameworks */,
+				85BBC1922065E9F80016B892 /* AWSPinpoint.framework in Embed Frameworks */,
+				85BBC1722065E9F80016B892 /* AWSMobileClient.framework in Embed Frameworks */,
+				85BBC18E2065E9F80016B892 /* AWSRekognition.framework in Embed Frameworks */,
+				85BBC1A82065E9F80016B892 /* AWSCognitoIdentityProvider.framework in Embed Frameworks */,
+				85BBC18C2065E9F80016B892 /* AWSGoogleSignIn.framework in Embed Frameworks */,
+				85BBC1AC2065E9F80016B892 /* AWSMachineLearning.framework in Embed Frameworks */,
+				85BBC16E2065E9F80016B892 /* AWSSQS.framework in Embed Frameworks */,
+				85BBC1A42065E9F80016B892 /* AWSS3.framework in Embed Frameworks */,
+				85BBC1902065E9F80016B892 /* AWSElasticLoadBalancing.framework in Embed Frameworks */,
+				85BBC1942065E9F80016B892 /* AWSFacebookSignIn.framework in Embed Frameworks */,
+				9705A1C71CF904A300538489 /* Flutter.framework in Embed Frameworks */,
+				85BBC19A2065E9F80016B892 /* AWSAutoScaling.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1498D2321E8E86230040F4C2 /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
+		1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
+		2D5378251FAA1A9400D5DBA9 /* flutter_assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = flutter_assets; path = Flutter/flutter_assets; sourceTree = SOURCE_ROOT; };
+		3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AppFrameworkInfo.plist; path = Flutter/AppFrameworkInfo.plist; sourceTree = "<group>"; };
+		3B80C3931E831B6300D905FE /* App.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = App.framework; path = Flutter/App.framework; sourceTree = "<group>"; };
+		74858FAD1ED2DC5600515810 /* Runner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runner-Bridging-Header.h"; sourceTree = "<group>"; };
+		74858FAE1ED2DC5600515810 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7AFA3C8E1D35360C0083082E /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = Flutter/Release.xcconfig; sourceTree = "<group>"; };
+		85BBC14A2065E9EE0016B892 /* AWSAuthCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSAuthCore.framework; path = Carthage/Build/iOS/AWSAuthCore.framework; sourceTree = "<group>"; };
+		85BBC14B2065E9EF0016B892 /* AWSSQS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSSQS.framework; path = Carthage/Build/iOS/AWSSQS.framework; sourceTree = "<group>"; };
+		85BBC14C2065E9EF0016B892 /* AWSSES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSSES.framework; path = Carthage/Build/iOS/AWSSES.framework; sourceTree = "<group>"; };
+		85BBC14D2065E9EF0016B892 /* AWSMobileClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSMobileClient.framework; path = Carthage/Build/iOS/AWSMobileClient.framework; sourceTree = "<group>"; };
+		85BBC14E2065E9EF0016B892 /* AWSCognitoAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSCognitoAuth.framework; path = Carthage/Build/iOS/AWSCognitoAuth.framework; sourceTree = "<group>"; };
+		85BBC14F2065E9EF0016B892 /* AWSIoT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSIoT.framework; path = Carthage/Build/iOS/AWSIoT.framework; sourceTree = "<group>"; };
+		85BBC1502065E9F00016B892 /* AWSPolly.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSPolly.framework; path = Carthage/Build/iOS/AWSPolly.framework; sourceTree = "<group>"; };
+		85BBC1512065E9F00016B892 /* AWSEC2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSEC2.framework; path = Carthage/Build/iOS/AWSEC2.framework; sourceTree = "<group>"; };
+		85BBC1522065E9F00016B892 /* AWSMobileAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSMobileAnalytics.framework; path = Carthage/Build/iOS/AWSMobileAnalytics.framework; sourceTree = "<group>"; };
+		85BBC1532065E9F00016B892 /* AWSCognito.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSCognito.framework; path = Carthage/Build/iOS/AWSCognito.framework; sourceTree = "<group>"; };
+		85BBC1542065E9F10016B892 /* AWSDynamoDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSDynamoDB.framework; path = Carthage/Build/iOS/AWSDynamoDB.framework; sourceTree = "<group>"; };
+		85BBC1552065E9F10016B892 /* AWSAuthUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSAuthUI.framework; path = Carthage/Build/iOS/AWSAuthUI.framework; sourceTree = "<group>"; };
+		85BBC1562065E9F10016B892 /* AWSKMS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSKMS.framework; path = Carthage/Build/iOS/AWSKMS.framework; sourceTree = "<group>"; };
+		85BBC1572065E9F20016B892 /* AWSSNS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSSNS.framework; path = Carthage/Build/iOS/AWSSNS.framework; sourceTree = "<group>"; };
+		85BBC1582065E9F20016B892 /* AWSUserPoolsSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSUserPoolsSignIn.framework; path = Carthage/Build/iOS/AWSUserPoolsSignIn.framework; sourceTree = "<group>"; };
+		85BBC1592065E9F20016B892 /* AWSKinesis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSKinesis.framework; path = Carthage/Build/iOS/AWSKinesis.framework; sourceTree = "<group>"; };
+		85BBC15A2065E9F30016B892 /* AWSGoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSGoogleSignIn.framework; path = Carthage/Build/iOS/AWSGoogleSignIn.framework; sourceTree = "<group>"; };
+		85BBC15B2065E9F30016B892 /* AWSRekognition.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSRekognition.framework; path = Carthage/Build/iOS/AWSRekognition.framework; sourceTree = "<group>"; };
+		85BBC15C2065E9F30016B892 /* AWSElasticLoadBalancing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSElasticLoadBalancing.framework; path = Carthage/Build/iOS/AWSElasticLoadBalancing.framework; sourceTree = "<group>"; };
+		85BBC15D2065E9F40016B892 /* AWSPinpoint.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSPinpoint.framework; path = Carthage/Build/iOS/AWSPinpoint.framework; sourceTree = "<group>"; };
+		85BBC15E2065E9F40016B892 /* AWSFacebookSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSFacebookSignIn.framework; path = Carthage/Build/iOS/AWSFacebookSignIn.framework; sourceTree = "<group>"; };
+		85BBC15F2065E9F40016B892 /* AWSLex.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSLex.framework; path = Carthage/Build/iOS/AWSLex.framework; sourceTree = "<group>"; };
+		85BBC1602065E9F50016B892 /* AWSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSCore.framework; path = Carthage/Build/iOS/AWSCore.framework; sourceTree = "<group>"; };
+		85BBC1612065E9F50016B892 /* AWSAutoScaling.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSAutoScaling.framework; path = Carthage/Build/iOS/AWSAutoScaling.framework; sourceTree = "<group>"; };
+		85BBC1622065E9F50016B892 /* AWSLambda.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSLambda.framework; path = Carthage/Build/iOS/AWSLambda.framework; sourceTree = "<group>"; };
+		85BBC1632065E9F50016B892 /* AWSLogs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSLogs.framework; path = Carthage/Build/iOS/AWSLogs.framework; sourceTree = "<group>"; };
+		85BBC1642065E9F60016B892 /* AWSCloudWatch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSCloudWatch.framework; path = Carthage/Build/iOS/AWSCloudWatch.framework; sourceTree = "<group>"; };
+		85BBC1652065E9F60016B892 /* AWSCognitoIdentityProviderASF.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSCognitoIdentityProviderASF.framework; path = Carthage/Build/iOS/AWSCognitoIdentityProviderASF.framework; sourceTree = "<group>"; };
+		85BBC1662065E9F60016B892 /* AWSS3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSS3.framework; path = Carthage/Build/iOS/AWSS3.framework; sourceTree = "<group>"; };
+		85BBC1672065E9F70016B892 /* AWSSimpleDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSSimpleDB.framework; path = Carthage/Build/iOS/AWSSimpleDB.framework; sourceTree = "<group>"; };
+		85BBC1682065E9F70016B892 /* AWSCognitoIdentityProvider.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSCognitoIdentityProvider.framework; path = Carthage/Build/iOS/AWSCognitoIdentityProvider.framework; sourceTree = "<group>"; };
+		85BBC1692065E9F70016B892 /* AWSAPIGateway.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSAPIGateway.framework; path = Carthage/Build/iOS/AWSAPIGateway.framework; sourceTree = "<group>"; };
+		85BBC16A2065E9F70016B892 /* AWSMachineLearning.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSMachineLearning.framework; path = Carthage/Build/iOS/AWSMachineLearning.framework; sourceTree = "<group>"; };
+		9740EEB21CF90195004384FC /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Debug.xcconfig; path = Flutter/Debug.xcconfig; sourceTree = "<group>"; };
+		9740EEB31CF90195004384FC /* Generated.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Generated.xcconfig; path = Flutter/Generated.xcconfig; sourceTree = "<group>"; };
+		9740EEBA1CF902C7004384FC /* Flutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Flutter.framework; path = Flutter/Flutter.framework; sourceTree = "<group>"; };
+		97C146EE1CF9000F007C117D /* Runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Runner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97C146FB1CF9000F007C117D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97C146FD1CF9000F007C117D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97C147001CF9000F007C117D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		97C147021CF9000F007C117D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97C146EB1CF9000F007C117D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85BBC1952065E9F80016B892 /* AWSLex.framework in Frameworks */,
+				85BBC1732065E9F80016B892 /* AWSCognitoAuth.framework in Frameworks */,
+				85BBC1792065E9F80016B892 /* AWSEC2.framework in Frameworks */,
+				85BBC19B2065E9F80016B892 /* AWSLambda.framework in Frameworks */,
+				85BBC1872065E9F80016B892 /* AWSUserPoolsSignIn.framework in Frameworks */,
+				85BBC16B2065E9F80016B892 /* AWSAuthCore.framework in Frameworks */,
+				85BBC17B2065E9F80016B892 /* AWSMobileAnalytics.framework in Frameworks */,
+				85BBC1972065E9F80016B892 /* AWSCore.framework in Frameworks */,
+				85BBC1A92065E9F80016B892 /* AWSAPIGateway.framework in Frameworks */,
+				85BBC1812065E9F80016B892 /* AWSAuthUI.framework in Frameworks */,
+				9705A1C61CF904A100538489 /* Flutter.framework in Frameworks */,
+				85BBC17F2065E9F80016B892 /* AWSDynamoDB.framework in Frameworks */,
+				85BBC1752065E9F80016B892 /* AWSIoT.framework in Frameworks */,
+				85BBC1A52065E9F80016B892 /* AWSSimpleDB.framework in Frameworks */,
+				85BBC17D2065E9F80016B892 /* AWSCognito.framework in Frameworks */,
+				85BBC16F2065E9F80016B892 /* AWSSES.framework in Frameworks */,
+				85BBC1892065E9F80016B892 /* AWSKinesis.framework in Frameworks */,
+				85BBC1832065E9F80016B892 /* AWSKMS.framework in Frameworks */,
+				85BBC1852065E9F80016B892 /* AWSSNS.framework in Frameworks */,
+				85BBC19D2065E9F80016B892 /* AWSLogs.framework in Frameworks */,
+				85BBC1A12065E9F80016B892 /* AWSCognitoIdentityProviderASF.framework in Frameworks */,
+				85BBC19F2065E9F80016B892 /* AWSCloudWatch.framework in Frameworks */,
+				85BBC1772065E9F80016B892 /* AWSPolly.framework in Frameworks */,
+				85BBC1912065E9F80016B892 /* AWSPinpoint.framework in Frameworks */,
+				85BBC1712065E9F80016B892 /* AWSMobileClient.framework in Frameworks */,
+				85BBC18D2065E9F80016B892 /* AWSRekognition.framework in Frameworks */,
+				85BBC1A72065E9F80016B892 /* AWSCognitoIdentityProvider.framework in Frameworks */,
+				85BBC18B2065E9F80016B892 /* AWSGoogleSignIn.framework in Frameworks */,
+				85BBC1AB2065E9F80016B892 /* AWSMachineLearning.framework in Frameworks */,
+				85BBC16D2065E9F80016B892 /* AWSSQS.framework in Frameworks */,
+				85BBC1A32065E9F80016B892 /* AWSS3.framework in Frameworks */,
+				85BBC18F2065E9F80016B892 /* AWSElasticLoadBalancing.framework in Frameworks */,
+				85BBC1932065E9F80016B892 /* AWSFacebookSignIn.framework in Frameworks */,
+				3B80C3941E831B6300D905FE /* App.framework in Frameworks */,
+				85BBC1992065E9F80016B892 /* AWSAutoScaling.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9740EEB11CF90186004384FC /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				2D5378251FAA1A9400D5DBA9 /* flutter_assets */,
+				3B80C3931E831B6300D905FE /* App.framework */,
+				3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */,
+				9740EEBA1CF902C7004384FC /* Flutter.framework */,
+				9740EEB21CF90195004384FC /* Debug.xcconfig */,
+				7AFA3C8E1D35360C0083082E /* Release.xcconfig */,
+				9740EEB31CF90195004384FC /* Generated.xcconfig */,
+			);
+			name = Flutter;
+			sourceTree = "<group>";
+		};
+		97C146E51CF9000F007C117D = {
+			isa = PBXGroup;
+			children = (
+				85BBC1692065E9F70016B892 /* AWSAPIGateway.framework */,
+				85BBC14A2065E9EE0016B892 /* AWSAuthCore.framework */,
+				85BBC1552065E9F10016B892 /* AWSAuthUI.framework */,
+				85BBC1612065E9F50016B892 /* AWSAutoScaling.framework */,
+				85BBC1642065E9F60016B892 /* AWSCloudWatch.framework */,
+				85BBC1532065E9F00016B892 /* AWSCognito.framework */,
+				85BBC14E2065E9EF0016B892 /* AWSCognitoAuth.framework */,
+				85BBC1682065E9F70016B892 /* AWSCognitoIdentityProvider.framework */,
+				85BBC1652065E9F60016B892 /* AWSCognitoIdentityProviderASF.framework */,
+				85BBC1602065E9F50016B892 /* AWSCore.framework */,
+				85BBC1542065E9F10016B892 /* AWSDynamoDB.framework */,
+				85BBC1512065E9F00016B892 /* AWSEC2.framework */,
+				85BBC15C2065E9F30016B892 /* AWSElasticLoadBalancing.framework */,
+				85BBC15E2065E9F40016B892 /* AWSFacebookSignIn.framework */,
+				85BBC15A2065E9F30016B892 /* AWSGoogleSignIn.framework */,
+				85BBC14F2065E9EF0016B892 /* AWSIoT.framework */,
+				85BBC1592065E9F20016B892 /* AWSKinesis.framework */,
+				85BBC1562065E9F10016B892 /* AWSKMS.framework */,
+				85BBC1622065E9F50016B892 /* AWSLambda.framework */,
+				85BBC15F2065E9F40016B892 /* AWSLex.framework */,
+				85BBC1632065E9F50016B892 /* AWSLogs.framework */,
+				85BBC16A2065E9F70016B892 /* AWSMachineLearning.framework */,
+				85BBC1522065E9F00016B892 /* AWSMobileAnalytics.framework */,
+				85BBC14D2065E9EF0016B892 /* AWSMobileClient.framework */,
+				85BBC15D2065E9F40016B892 /* AWSPinpoint.framework */,
+				85BBC1502065E9F00016B892 /* AWSPolly.framework */,
+				85BBC15B2065E9F30016B892 /* AWSRekognition.framework */,
+				85BBC1662065E9F60016B892 /* AWSS3.framework */,
+				85BBC14C2065E9EF0016B892 /* AWSSES.framework */,
+				85BBC1672065E9F70016B892 /* AWSSimpleDB.framework */,
+				85BBC1572065E9F20016B892 /* AWSSNS.framework */,
+				85BBC14B2065E9EF0016B892 /* AWSSQS.framework */,
+				85BBC1582065E9F20016B892 /* AWSUserPoolsSignIn.framework */,
+				9740EEB11CF90186004384FC /* Flutter */,
+				97C146F01CF9000F007C117D /* Runner */,
+				97C146EF1CF9000F007C117D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97C146EF1CF9000F007C117D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97C146EE1CF9000F007C117D /* Runner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97C146F01CF9000F007C117D /* Runner */ = {
+			isa = PBXGroup;
+			children = (
+				97C146FA1CF9000F007C117D /* Main.storyboard */,
+				97C146FD1CF9000F007C117D /* Assets.xcassets */,
+				97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */,
+				97C147021CF9000F007C117D /* Info.plist */,
+				97C146F11CF9000F007C117D /* Supporting Files */,
+				1498D2321E8E86230040F4C2 /* GeneratedPluginRegistrant.h */,
+				1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */,
+				74858FAE1ED2DC5600515810 /* AppDelegate.swift */,
+				74858FAD1ED2DC5600515810 /* Runner-Bridging-Header.h */,
+			);
+			path = Runner;
+			sourceTree = "<group>";
+		};
+		97C146F11CF9000F007C117D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97C146ED1CF9000F007C117D /* Runner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97C147051CF9000F007C117D /* Build configuration list for PBXNativeTarget "Runner" */;
+			buildPhases = (
+				9740EEB61CF901F6004384FC /* Run Script */,
+				97C146EA1CF9000F007C117D /* Sources */,
+				97C146EB1CF9000F007C117D /* Frameworks */,
+				97C146EC1CF9000F007C117D /* Resources */,
+				9705A1C41CF9048500538489 /* Embed Frameworks */,
+				3B06AD1E1E4923F5004D2608 /* Thin Binary */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Runner;
+			productName = Runner;
+			productReference = 97C146EE1CF9000F007C117D /* Runner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97C146E61CF9000F007C117D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "The Chromium Authors";
+				TargetAttributes = {
+					97C146ED1CF9000F007C117D = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6K5456CJN6;
+						LastSwiftMigration = 0910;
+					};
+				};
+			};
+			buildConfigurationList = 97C146E91CF9000F007C117D /* Build configuration list for PBXProject "Runner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97C146E51CF9000F007C117D;
+			productRefGroup = 97C146EF1CF9000F007C117D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97C146ED1CF9000F007C117D /* Runner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97C146EC1CF9000F007C117D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */,
+				9740EEB51CF90195004384FC /* Generated.xcconfig in Resources */,
+				3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */,
+				9740EEB41CF90195004384FC /* Debug.xcconfig in Resources */,
+				97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */,
+				2D5378261FAA1A9400D5DBA9 /* flutter_assets in Resources */,
+				97C146FC1CF9000F007C117D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B06AD1E1E4923F5004D2608 /* Thin Binary */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Thin Binary";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" thin";
+		};
+		9740EEB61CF901F6004384FC /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build\n/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97C146EA1CF9000F007C117D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */,
+				1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		97C146FA1CF9000F007C117D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97C146FB1CF9000F007C117D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97C147001CF9000F007C117D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97C147031CF9000F007C117D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9740EEB21CF90195004384FC /* Debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97C147041CF9000F007C117D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97C147061CF9000F007C117D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9740EEB21CF90195004384FC /* Debug.xcconfig */;
+			buildSettings = {
+				ARCHS = arm64;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 6K5456CJN6;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flutter",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Runner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flutter",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.spor2me.aws-cognito-auth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		97C147071CF9000F007C117D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
+			buildSettings = {
+				ARCHS = arm64;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 6K5456CJN6;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flutter",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Runner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flutter",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.spor2me.aws-cognito-auth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97C146E91CF9000F007C117D /* Build configuration list for PBXProject "Runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97C147031CF9000F007C117D /* Debug */,
+				97C147041CF9000F007C117D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97C147051CF9000F007C117D /* Build configuration list for PBXNativeTarget "Runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97C147061CF9000F007C117D /* Debug */,
+				97C147071CF9000F007C117D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97C146E61CF9000F007C117D /* Project object */;
+}

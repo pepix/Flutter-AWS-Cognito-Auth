@@ -63,7 +63,10 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
+    final key = new GlobalKey<ScaffoldState>();
+
     return new Material(
+      key: key,
       child: new Center(
         child: new ListView(
           children: <Widget>[
@@ -96,7 +99,21 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: new Text("LOGIN"),
                   onPressed: _login,
                 ),
-                new Text(_loginstatus),
+                new Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: <Widget>[
+                    new GestureDetector(
+                      child: new Text(_loginstatus),
+                      onLongPress: () {
+                        Clipboard.setData(new ClipboardData(text: _loginstatus));
+                        key.currentState.showSnackBar(
+                          new SnackBar(content: new Text("Copied to Clipboard"))
+                        );
+                      },
+                    ),
+                  ]
+                ),
+                //new Text(_loginstatus),
               ],
             ),
           ],
